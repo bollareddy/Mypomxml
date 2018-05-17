@@ -107,4 +107,17 @@
       </plugin>
     </plugins>
   </build>
+	<distributionManagement>
+        <repository>
+            <id>my_release</id>
+            <name>my_release</name>
+            <url>http://192.168.100.11:8081/repository/my_release/</url>
+        </repository>
+        <snapshotRepository>
+            <id>my_snapshot</id>
+            <name>my_snapshot</name>
+            <url>http://192.168.100.11:8081/repository/my_snapshot/</url>
+        </snapshotRepository>
+    </distributionManagement>
+
 </project>
