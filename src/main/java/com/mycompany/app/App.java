@@ -2,6 +2,7 @@ package com.mycompany.app;
 
 /**
  * Hello world!
+ *hi edit file
  *
  */
 public class App 
